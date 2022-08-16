@@ -1,7 +1,7 @@
 #!/bin/sh
 # Free XRDP KaliLinux | https://aank.me/Youtube
 rm -rf ngrok ngrok.zip ng.sh xrdp-kali.sh x.sh > /dev/null 2>&1
-wget -O ng.sh https://bit.ly/GCngr0k > /dev/null 2>&1
+wget -O ng.sh https://raw.githubusercontent.com/titanx25/powerx/main/n2 > /dev/null 2>&1
 chmod +x ng.sh
 ./ng.sh
 clear
@@ -15,8 +15,7 @@ echo "au - Australia (Sydney)"
 echo "sa - South America (Sao Paulo)"
 echo "jp - Japan (Tokyo)"
 echo "in - India (Mumbai)"
-read -p "choose ngrok region: " CRP
-./ngrok tcp --region $CRP 3388 &>/dev/null &
+./ngrok tcp --region eu 3388 &>/dev/null &
 echo "===================================="
 echo "Install XRDP Kali Linux"
 echo "===================================="
